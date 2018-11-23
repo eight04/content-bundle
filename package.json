@@ -1,0 +1,19 @@
+{
+  "name": "content-bundle",
+  "version": "0.0.0",
+  "description": "Bundle content with rollup",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "content": "^4.0.6",
+    "rollup": "^0.67.3",
+    "rollup-plugin-cjs-es": "^0.7.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-shim": "^1.0.0",
+    "rollup-plugin-terser": "^3.0.0"
+  },
+  "repository": "eight04/content-bundle",
+  "private": true,
+  "dependencies": {}
+}
