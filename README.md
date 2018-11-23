@@ -8,3 +8,5 @@ contentParser.type('application/json; some=property; and="another"');
 contentParser.disposition('form-data; name="file"; filename=file.jpg');
 // { name: 'file', filename: 'file.jpg' }
 ```
+
+[Demo](https://jsbin.com/wiwerawoxu/edit?html,js,console)
